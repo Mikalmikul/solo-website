@@ -16,23 +16,22 @@ body {
      
 }
 
-h1 {
-      text-shadow: 0px 0px 3px darkgray;
-      color: white;
-      font-size: 60px;    
+h2 {
+    font-size: 24px;
 }
-
 
 #hero-section {
     padding: 180px 0 200px 0;
     background-image: url("images/Bali-green-img.jpg");
     background-size: cover;
     margin-bottom: 0px;
+    color: white;
+    font-size: 30px;
 }
 
 #activity-section {
     margin: 0px 0;
-    padding: 40px 0 120px 0;
+    padding: 60px 20px 120px;
     background: lightgrey;
 }
 
@@ -49,7 +48,6 @@ h1 {
 img {
     width: 250px; 
     height: 250px;
-    margin: 0 0px 0 0px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -58,7 +56,9 @@ img {
     padding: 90px 0;
     color: lightgray;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0px 0px;
     text-align: center;
     background: #b08968;
@@ -66,20 +66,11 @@ img {
 }
 
 #guide-img {
-    border: 6px solid lightgrey;
     border-radius: 8px;
-
 }
 
 #guide-text {
     height: 200px;
     width: 400px;
     font-size: 20px;
-    text-align: center;
 }
-
-#img-opt-1::grammar-error {
-    width: 300px;
-    height: 300px;
-}
-
